@@ -1,0 +1,13 @@
+<p style="color: green"><%= notice %></p>
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://cdn.pixabay.com/photo/2016/01/22/08/17/banner-1155437_1280.png);">
+  <div class="container">
+    <h1>Save <strong>any kind</strong> of <strong>movies</strong>!</h1>
+    <%# <p>Change your life and learn to code at one of our campuses around the world.</p> %>
+    <p><span data-controller="typed-js"></span></p>
+    <a class="btn btn-secondary" href="#">Make a bookmark</a>
+  </div>
+</div>
+<h1>Lists</h1>
+<div class="container">
+  <%= render 'listing', lists: @lists %>
+</div>
