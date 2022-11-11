@@ -1,0 +1,10 @@
+<% @list.bookmarks.each do |bookmark|  %>
+  <div class="col-sm-4 align-items-stretch ">
+    <div class="card mb-2" style="width: 18rem;">
+      <img src="" class="card-img-top" alt="...">
+      <div class="card-body">
+      <h5 class="card-title"><%= bookmark.movie.title %></h5>
+      <p><%= bookmark.comment %></p>
+    </div>
+  </div>
+<% end %>
